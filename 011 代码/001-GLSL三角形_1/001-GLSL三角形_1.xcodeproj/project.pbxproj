@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6430BBD1FF5291300499B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430BBC1FF5291300499B83 /* main.m */; };
+		D6430BC01FF5291300499B83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430BBF1FF5291300499B83 /* AppDelegate.m */; };
+		D6430BC61FF5291300499B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6430BC41FF5291300499B83 /* Main.storyboard */; };
+		D6430BC81FF5291300499B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6430BC71FF5291300499B83 /* Assets.xcassets */; };
+		D6430BCB1FF5291300499B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6430BC91FF5291300499B83 /* LaunchScreen.storyboard */; };
+		D6430BD61FF5291400499B83 /* _01_GLSL____1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430BD51FF5291400499B83 /* _01_GLSL____1Tests.m */; };
+		D6430BE11FF5291400499B83 /* _01_GLSL____1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430BE01FF5291400499B83 /* _01_GLSL____1UITests.m */; };
+		D6430BF51FF529B000499B83 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430BEF1FF529B000499B83 /* GLESUtils.m */; };
+		D6430BF61FF529B000499B83 /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = D6430BF11FF529B000499B83 /* GLESMath.c */; };
+		D6430BF91FF52A5800499B83 /* CCView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430BF81FF52A5800499B83 /* CCView.m */; };
+		D6430BFC1FF52A6100499B83 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6430BFB1FF52A6100499B83 /* CCViewController.m */; };
+		D69FF0F91FF6157B000E0939 /* shaderv.glsl in Resources */ = {isa = PBXBuildFile; fileRef = D69FF0F81FF6157B000E0939 /* shaderv.glsl */; };
+		D69FF0FB1FF61584000E0939 /* shaderf.glsl in Resources */ = {isa = PBXBuildFile; fileRef = D69FF0FA1FF61584000E0939 /* shaderf.glsl */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6430BD21FF5291400499B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6430BB01FF5291300499B83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6430BB71FF5291300499B83;
+			remoteInfo = "001-GLSL三角形_1";
+		};
+		D6430BDD1FF5291400499B83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6430BB01FF5291300499B83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6430BB71FF5291300499B83;
+			remoteInfo = "001-GLSL三角形_1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6430BB81FF5291300499B83 /* 001-GLSL三角形_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-GLSL三角形_1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6430BBC1FF5291300499B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6430BBE1FF5291300499B83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6430BBF1FF5291300499B83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6430BC51FF5291300499B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6430BC71FF5291300499B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6430BCA1FF5291300499B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6430BCC1FF5291400499B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6430BD11FF5291400499B83 /* 001-GLSL三角形_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-GLSL三角形_1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6430BD51FF5291400499B83 /* _01_GLSL____1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_01_GLSL____1Tests.m"; sourceTree = "<group>"; };
+		D6430BD71FF5291400499B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6430BDC1FF5291400499B83 /* 001-GLSL三角形_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-GLSL三角形_1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6430BE01FF5291400499B83 /* _01_GLSL____1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_01_GLSL____1UITests.m"; sourceTree = "<group>"; };
+		D6430BE21FF5291400499B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6430BEF1FF529B000499B83 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		D6430BF01FF529B000499B83 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
+		D6430BF11FF529B000499B83 /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
+		D6430BF21FF529B000499B83 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		D6430BF31FF529B000499B83 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
+		D6430BF41FF529B000499B83 /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
+		D6430BF71FF52A5800499B83 /* CCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCView.h; sourceTree = "<group>"; };
+		D6430BF81FF52A5800499B83 /* CCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCView.m; sourceTree = "<group>"; };
+		D6430BFA1FF52A6100499B83 /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		D6430BFB1FF52A6100499B83 /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		D69FF0F81FF6157B000E0939 /* shaderv.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shaderv.glsl; sourceTree = "<group>"; };
+		D69FF0FA1FF61584000E0939 /* shaderf.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shaderf.glsl; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6430BB51FF5291300499B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6430BCE1FF5291400499B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6430BD91FF5291400499B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6430BAF1FF5291300499B83 = {
+			isa = PBXGroup;
+			children = (
+				D6430BBA1FF5291300499B83 /* 001-GLSL三角形_1 */,
+				D6430BD41FF5291400499B83 /* 001-GLSL三角形_1Tests */,
+				D6430BDF1FF5291400499B83 /* 001-GLSL三角形_1UITests */,
+				D6430BB91FF5291300499B83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6430BB91FF5291300499B83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6430BB81FF5291300499B83 /* 001-GLSL三角形_1.app */,
+				D6430BD11FF5291400499B83 /* 001-GLSL三角形_1Tests.xctest */,
+				D6430BDC1FF5291400499B83 /* 001-GLSL三角形_1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6430BBA1FF5291300499B83 /* 001-GLSL三角形_1 */ = {
+			isa = PBXGroup;
+			children = (
+				D6430BBE1FF5291300499B83 /* AppDelegate.h */,
+				D6430BBF1FF5291300499B83 /* AppDelegate.m */,
+				D6430BF71FF52A5800499B83 /* CCView.h */,
+				D6430BF81FF52A5800499B83 /* CCView.m */,
+				D69FF0F81FF6157B000E0939 /* shaderv.glsl */,
+				D69FF0FA1FF61584000E0939 /* shaderf.glsl */,
+				D6430BFA1FF52A6100499B83 /* CCViewController.h */,
+				D6430BFB1FF52A6100499B83 /* CCViewController.m */,
+				D6430BEE1FF529B000499B83 /* Utils */,
+				D6430BC41FF5291300499B83 /* Main.storyboard */,
+				D6430BC71FF5291300499B83 /* Assets.xcassets */,
+				D6430BC91FF5291300499B83 /* LaunchScreen.storyboard */,
+				D6430BCC1FF5291400499B83 /* Info.plist */,
+				D6430BBB1FF5291300499B83 /* Supporting Files */,
+			);
+			path = "001-GLSL三角形_1";
+			sourceTree = "<group>";
+		};
+		D6430BBB1FF5291300499B83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6430BBC1FF5291300499B83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6430BD41FF5291400499B83 /* 001-GLSL三角形_1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D6430BD51FF5291400499B83 /* _01_GLSL____1Tests.m */,
+				D6430BD71FF5291400499B83 /* Info.plist */,
+			);
+			path = "001-GLSL三角形_1Tests";
+			sourceTree = "<group>";
+		};
+		D6430BDF1FF5291400499B83 /* 001-GLSL三角形_1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6430BE01FF5291400499B83 /* _01_GLSL____1UITests.m */,
+				D6430BE21FF5291400499B83 /* Info.plist */,
+			);
+			path = "001-GLSL三角形_1UITests";
+			sourceTree = "<group>";
+		};
+		D6430BEE1FF529B000499B83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D6430BEF1FF529B000499B83 /* GLESUtils.m */,
+				D6430BF01FF529B000499B83 /* Quaternion.h */,
+				D6430BF11FF529B000499B83 /* GLESMath.c */,
+				D6430BF21FF529B000499B83 /* GLESUtils.h */,
+				D6430BF31FF529B000499B83 /* Vector.h */,
+				D6430BF41FF529B000499B83 /* GLESMath.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6430BB71FF5291300499B83 /* 001-GLSL三角形_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6430BE51FF5291400499B83 /* Build configuration list for PBXNativeTarget "001-GLSL三角形_1" */;
+			buildPhases = (
+				D6430BB41FF5291300499B83 /* Sources */,
+				D6430BB51FF5291300499B83 /* Frameworks */,
+				D6430BB61FF5291300499B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-GLSL三角形_1";
+			productName = "001-GLSL三角形_1";
+			productReference = D6430BB81FF5291300499B83 /* 001-GLSL三角形_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6430BD01FF5291400499B83 /* 001-GLSL三角形_1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6430BE81FF5291400499B83 /* Build configuration list for PBXNativeTarget "001-GLSL三角形_1Tests" */;
+			buildPhases = (
+				D6430BCD1FF5291400499B83 /* Sources */,
+				D6430BCE1FF5291400499B83 /* Frameworks */,
+				D6430BCF1FF5291400499B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6430BD31FF5291400499B83 /* PBXTargetDependency */,
+			);
+			name = "001-GLSL三角形_1Tests";
+			productName = "001-GLSL三角形_1Tests";
+			productReference = D6430BD11FF5291400499B83 /* 001-GLSL三角形_1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6430BDB1FF5291400499B83 /* 001-GLSL三角形_1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6430BEB1FF5291400499B83 /* Build configuration list for PBXNativeTarget "001-GLSL三角形_1UITests" */;
+			buildPhases = (
+				D6430BD81FF5291400499B83 /* Sources */,
+				D6430BD91FF5291400499B83 /* Frameworks */,
+				D6430BDA1FF5291400499B83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6430BDE1FF5291400499B83 /* PBXTargetDependency */,
+			);
+			name = "001-GLSL三角形_1UITests";
+			productName = "001-GLSL三角形_1UITests";
+			productReference = D6430BDC1FF5291400499B83 /* 001-GLSL三角形_1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6430BB01FF5291300499B83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "CC老师";
+				TargetAttributes = {
+					D6430BB71FF5291300499B83 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D6430BD01FF5291400499B83 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6430BB71FF5291300499B83;
+					};
+					D6430BDB1FF5291400499B83 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D6430BB71FF5291300499B83;
+					};
+				};
+			};
+			buildConfigurationList = D6430BB31FF5291300499B83 /* Build configuration list for PBXProject "001-GLSL三角形_1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6430BAF1FF5291300499B83;
+			productRefGroup = D6430BB91FF5291300499B83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6430BB71FF5291300499B83 /* 001-GLSL三角形_1 */,
+				D6430BD01FF5291400499B83 /* 001-GLSL三角形_1Tests */,
+				D6430BDB1FF5291400499B83 /* 001-GLSL三角形_1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6430BB61FF5291300499B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6430BCB1FF5291300499B83 /* LaunchScreen.storyboard in Resources */,
+				D69FF0F91FF6157B000E0939 /* shaderv.glsl in Resources */,
+				D6430BC81FF5291300499B83 /* Assets.xcassets in Resources */,
+				D6430BC61FF5291300499B83 /* Main.storyboard in Resources */,
+				D69FF0FB1FF61584000E0939 /* shaderf.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6430BCF1FF5291400499B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6430BDA1FF5291400499B83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6430BB41FF5291300499B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6430BC01FF5291300499B83 /* AppDelegate.m in Sources */,
+				D6430BF61FF529B000499B83 /* GLESMath.c in Sources */,
+				D6430BFC1FF52A6100499B83 /* CCViewController.m in Sources */,
+				D6430BF51FF529B000499B83 /* GLESUtils.m in Sources */,
+				D6430BBD1FF5291300499B83 /* main.m in Sources */,
+				D6430BF91FF52A5800499B83 /* CCView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6430BCD1FF5291400499B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6430BD61FF5291400499B83 /* _01_GLSL____1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6430BD81FF5291400499B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6430BE11FF5291400499B83 /* _01_GLSL____1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6430BD31FF5291400499B83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6430BB71FF5291300499B83 /* 001-GLSL三角形_1 */;
+			targetProxy = D6430BD21FF5291400499B83 /* PBXContainerItemProxy */;
+		};
+		D6430BDE1FF5291400499B83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6430BB71FF5291300499B83 /* 001-GLSL三角形_1 */;
+			targetProxy = D6430BDD1FF5291400499B83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6430BC41FF5291300499B83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6430BC51FF5291300499B83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6430BC91FF5291300499B83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6430BCA1FF5291300499B83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6430BE31FF5291400499B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6430BE41FF5291400499B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6430BE61FF5291400499B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "001-GLSL三角形_1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CC.-01-GLSL----1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6430BE71FF5291400499B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "001-GLSL三角形_1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CC.-01-GLSL----1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6430BE91FF5291400499B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "001-GLSL三角形_1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CC.-01-GLSL----1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-GLSL三角形_1.app/001-GLSL三角形_1";
+			};
+			name = Debug;
+		};
+		D6430BEA1FF5291400499B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "001-GLSL三角形_1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CC.-01-GLSL----1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-GLSL三角形_1.app/001-GLSL三角形_1";
+			};
+			name = Release;
+		};
+		D6430BEC1FF5291400499B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "001-GLSL三角形_1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CC.-01-GLSL----1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "001-GLSL三角形_1";
+			};
+			name = Debug;
+		};
+		D6430BED1FF5291400499B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "001-GLSL三角形_1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CC.-01-GLSL----1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "001-GLSL三角形_1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6430BB31FF5291300499B83 /* Build configuration list for PBXProject "001-GLSL三角形_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6430BE31FF5291400499B83 /* Debug */,
+				D6430BE41FF5291400499B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6430BE51FF5291400499B83 /* Build configuration list for PBXNativeTarget "001-GLSL三角形_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6430BE61FF5291400499B83 /* Debug */,
+				D6430BE71FF5291400499B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6430BE81FF5291400499B83 /* Build configuration list for PBXNativeTarget "001-GLSL三角形_1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6430BE91FF5291400499B83 /* Debug */,
+				D6430BEA1FF5291400499B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6430BEB1FF5291400499B83 /* Build configuration list for PBXNativeTarget "001-GLSL三角形_1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6430BEC1FF5291400499B83 /* Debug */,
+				D6430BED1FF5291400499B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6430BB01FF5291300499B83 /* Project object */;
+}
